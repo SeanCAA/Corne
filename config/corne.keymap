@@ -75,7 +75,7 @@
             label = "LANTUS_MACRO";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
+                <&macro_tap>,
                 <&kp LS(L) &kp LS(A) &kp LS(N) &kp LS(T) &kp LS(U) &kp LS(S) &kp DOWN &kp ENTER &kp TAB &kp B &kp TAB &kp A>;
         };
     };
