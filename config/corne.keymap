@@ -14,31 +14,41 @@
             compatible = "zmk,behavior-macro";
             label = "REDO";
             #binding-cells = <0>;
-            bindings = <&macro_press>;
+            bindings = <&macro_press &kp LCTRL>
+                , <&macro_tap &kp Y>
+                , <&macro_release &kp LCTRL>;
         };
         Paste: Paste {
             compatible = "zmk,behavior-macro";
             label = "PASTE";
             #binding-cells = <0>;
-            bindings = <&macro_press>;
+            bindings = <&macro_press &kp LCTRL>
+                , <&macro_tap &kp V>
+                , <&macro_release &kp LCTRL>;
         };
         Copy: Copy {
             compatible = "zmk,behavior-macro";
             label = "COPY";
             #binding-cells = <0>;
-            bindings = <&macro_press>;
+            bindings = <&macro_press &kp LCTRL>
+                , <&macro_tap &kp C>
+                , <&macro_release &kp LCTRL>;
         };
         Cut: Cut {
             compatible = "zmk,behavior-macro";
             label = "CUT";
             #binding-cells = <0>;
-            bindings = <&macro_press>;
+            bindings = <&macro_press &kp LCTRL>
+                , <&macro_tap &kp X>
+                , <&macro_release &kp LCTRL>;
         };
         Undo: Undo {
             compatible = "zmk,behavior-macro";
             label = "UNDO";
             #binding-cells = <0>;
-            bindings = <&macro_press>;
+            bindings = <&macro_press &kp LCTRL>
+                , <&macro_tap &kp Z>
+                , <&macro_release &kp LCTRL>;
         };
     };
 
