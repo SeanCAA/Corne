@@ -163,10 +163,10 @@
 
         Macropad {
             bindings = <
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-                     &none  &none  &none    &to 0  &none  &none
+&none  &Lantus_Macro  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none          &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none          &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+                             &none  &none  &none    &to 0  &none  &none
             >;
         };
     };
