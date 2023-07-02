@@ -93,7 +93,7 @@
     };
 
     behaviors {
-        Balenced_homerow_mods: Balenced_homerow_mods {
+        bhm: Balanced_homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             bindings =
@@ -104,7 +104,6 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <0>;
             flavor = "balanced";
-            hold-trigger-key-positions = <13 14 15 16 19 20 21 22>;
         };
     };
 
