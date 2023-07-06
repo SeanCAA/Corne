@@ -90,6 +90,20 @@
                 <&macro_release>,
                 <&kp LCTRL>;
         };
+        DE: DE {
+            compatible = "zmk,behavior-macro";
+            label = "DE";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp LS(O) &kp N9 &kp N7 &kp N3 &kp N3 &kp N4 &kp N7 &kp TAB>,
+                <&macro_press>,
+                <&kp LEFT_CONTROL>,
+                <&macro_tap>,
+                <&kp V>,
+                <&macro_release>,
+                <&kp LEFT_CONTROL>;
+        };
     };
 
     behaviors {
@@ -190,7 +204,7 @@
 
         Macropad {
             bindings = <
-&none  &Lantus_Macro  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+&none  &Lantus_Macro    &DE  &none  &none  &none    &none  &none  &none  &none  &none  &none
 &none          &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
 &none          &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
                              &none  &none  &none    &to 0  &none  &none
