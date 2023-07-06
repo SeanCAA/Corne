@@ -102,7 +102,9 @@
                 <&macro_tap>,
                 <&kp V>,
                 <&macro_release>,
-                <&kp LEFT_CONTROL>;
+                <&kp LEFT_CONTROL>,
+                <&macro_tap>,
+                <&kp TAB &kp ENTER>;
         };
     };
 
