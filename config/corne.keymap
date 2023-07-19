@@ -215,10 +215,10 @@
 
         Right_Nav {
             bindings = <
-&none           &Undo     &Copy    &Cut     &Paste        &Ctrl_A    &none  &none  &none  &none  &none  &none
-&none  &kp LEFT_ARROW  &kp DOWN  &kp UP  &kp RIGHT        &kp DEL    &none  &none  &none  &none  &none  &none
-&none           &none     &none   &none      &none  &kp BACKSPACE    &none  &none  &none  &none  &none  &none
-                                  &none      &none          &none    &none  &none  &none
+&none           &Undo         &Copy              &Cut         &Paste        &Ctrl_A    &none            &none              &none          &none          &none  &none
+&none  &kp LEFT_ARROW      &kp DOWN            &kp UP      &kp RIGHT        &kp DEL    &none  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_WIN  &none
+&none    &kp LC(LEFT)  &kp LC(DOWN)  &kp LC(UP_ARROW)  &kp LC(RIGHT)  &kp BACKSPACE    &none            &none              &none          &none          &none  &none
+                                                &none          &none          &none    &none            &none              &none
             >;
         };
     };
